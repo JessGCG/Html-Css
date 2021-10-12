@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('fonte/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    background-image: linear-gradient(to bottom, #2fff89, #06632e);
+    height: 160px;
+}
+
+header > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px 40px 0px;
+    color: white;
+}
+
+header > p{
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+header > a{
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+header > a:hover{
+    color: black;
+    background-color: #2fff89;
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+section{
+    padding: 10px;
+}
+
+section > h2{
+    font-family: 'Android';
+}
+
+section > h3{
+    font-family: 'Android';
+    background-image: linear-gradient(to left, #9cf8c433, #0bc25a);
+    font-weight: normal;
+}
+
+section > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+section > img{
+    width: 680px;
+}
+
+#android{
+    width: 300px;
+    margin-left: 150px;
+}
+
+article{
+    background-color: #06632e;
+}
+
+article > iframe{
+    padding: 20px 40px 10px 50px;
+}
+
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+aside > h3{
+    background-color: #2fff89;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+
+.final{
+    background-color: #84E1AD;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+footer > p{
+    padding: 0px 0px 20px 10px;
+}
+
+div{
+    background-color: #033519;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+div > h3{
+    margin: 0px;
+}
+
+div > h4{
+    margin: 0px;
+}
+
+.lista1{
+    display: inline-block;
+    padding: 0px;
+}
+
+.lista1 > li::before{
+    content: '✔';
+}
+
+.lista2{
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.lista2 > li::before{
+    content: '✔';
+}
+
+.Lperso{
+    color: #022712;
+    text-decoration: none;
+    background-color: #10f172;
+}
+
+.Lperso:hover{
+    text-decoration: underline;
+}
+
+.Lperso::after{
+    content: '✐';
+}

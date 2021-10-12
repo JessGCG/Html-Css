@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Fire';
+    src: url('fonte/Burn.otf') format('opentype');
+}
+
+body{
+    background-color: #f29f056c;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #F29F05, #F25C05);
+    height: 154px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > a:hover{
+    background-color: #A6261B;
+    border-radius: 5px;
+}
+
+section{
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+section > h1{
+    font-size: 2em;
+    font-family: 'Fire';
+}
+
+section > h2{
+    font-family: 'Fire';
+    font-size: 30px;
+    background-image: linear-gradient(to right, #F29F05, #f29f0554);
+}
+
+section > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+img.solaire{
+    height: 236px;
+    width: 700px;
+}
+
+img.geral{
+    width: 700px;
+}
+
+article{
+    padding: 20px 0px 20px 65px;
+    background-color: #F25C05;
+}
